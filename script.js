@@ -21,3 +21,8 @@ function getRandomAnimeQuote() {
       detailsElement.innerHTML = `Anime: ${animeTitle}<br>Character: ${characterName}`;
       quoteContainer.appendChild(detailsElement);
     })
+    .catch(function(error) {
+      console.log("Error: " + error);
+      quoteContainer.innerHTML = "Error occurred while fetching the quote.";
+    });
+}
