@@ -1,0 +1,2 @@
+A simple javascript project that generates a random anime quote which specify which anime it is from and which character in the anime saud that quote.
+The project is done with the help of animechan api.(https://animechan.vercel.app/api)
