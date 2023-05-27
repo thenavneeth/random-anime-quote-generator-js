@@ -1,7 +1,7 @@
 
 html {
   font-size: 25px;
-  
+  background: url('./images/image1.jpg');
   background-size: cover;
  
 container {
